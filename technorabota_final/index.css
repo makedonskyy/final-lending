@@ -1,0 +1,74 @@
+.about__places {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: center;
+    margin-top: 100px;
+    align-content: space-around;
+    gap: 10px;
+}
+
+.about__places_text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    width: 378px;
+    height: 178px;
+}
+
+.text-main {
+    font-family: 'ALS Sector';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    color: #D00E46;
+}
+
+.about__map {
+    width: 416px;
+    height: 161px;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    margin-right: 10%;
+}
+
+.text-in-card-main {
+    font-family: Circe;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text-in-card {
+    font-family: Circe;
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    line-height: 114.9%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #6C6C6C;
+}
+
+.about__companies {
+    width: 100%;
+    background: #F3F3F3;
+    border-radius: 5px;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bold-text {
+    font-weight: bold;
+}
