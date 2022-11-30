@@ -85,7 +85,8 @@
 
 .about__companies {
     width: 100%;
-    background: #f5f5f5;;
+    background: #f5f5f5;
+    ;
     border-radius: 5px;
     padding: 2%;
     display: flex;
@@ -146,17 +147,12 @@
 .ordinary-text {
     font-family: " Circe";
     font-size: 20px;
-
     line-height: 23px;
     letter-spacing: 0em;
     text-align: left;
     font-style: normal;
-    font-family: Circe;
+    font-family: "Circe";
 }
-
-/* .text-main-card{
-
-} */
 
 .main-bold-text {
     font-family: "Circe";
@@ -165,8 +161,65 @@
     line-height: 54px;
     letter-spacing: 0em;
     text-align: left;
-
 }
-.back{
-    background-color: #f5f5f5;
+
+.back {
+    background-color: #edf2f6;
+}
+
+.vacancy-card {
+    /* width: 416px; */
+    /* height: 161px; */
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 2%;
+}
+
+.vacancy-flag {
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    font-family: "Circe";
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: inline-block;
+    padding: 3px 7px 3px 7px;
+    margin-top: 13px;
+    margin-left: 8px;
+}
+
+.vacancy-name {
+    margin-top: 25px;
+    margin-left: 8px;
+    /* width: 360px;
+    height: 43px; */
+}
+
+.vacancy-company {
+/* width: 113px;
+height: 16px; */
+font-family: 'Circe';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 114.9%;
+color: #0291EB;
+margin-left: 8px;
+margin-top: 29px;
+margin-bottom: 16px;
+}
+.vacancy-text {
+    padding-top: 40px;
+padding-left: 10px;
+padding-bottom: 96px;
+}
+
+.vacancy-button{
+    height: 86px;
+width: 416px;
+border-radius: 73px;
+border: 3px solid #D00E46;
+background: #D00E46 ;
+/* color: #D00E46; */
 }
