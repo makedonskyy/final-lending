@@ -13,6 +13,7 @@
     src: url("//db.onlinewebfonts.com/t/0373adad7b4c1a926865084f2f8fab7f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0373adad7b4c1a926865084f2f8fab7f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0373adad7b4c1a926865084f2f8fab7f.woff") format("woff"), url("//db.onlinewebfonts.com/t/0373adad7b4c1a926865084f2f8fab7f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0373adad7b4c1a926865084f2f8fab7f.svg#Circe") format("svg");
 }
 
+
 .about__places {
     display: flex;
     flex-direction: row;
@@ -86,11 +87,15 @@
 .about__companies {
     width: 100%;
     background: #f5f5f5;
-    ;
     border-radius: 5px;
-    padding: 2%;
+    padding: 3%;
     display: flex;
     flex-direction: row;
+}
+
+.about__companies_text{
+    width:  323px;
+    margin-right: 2%;
 }
 
 .bold-text {
@@ -139,9 +144,9 @@
 .about__companies_logo-image {
     height: 86px;
     width: 178px;
+
     border-radius: 73px;
     background-color: #ffffff;
-
 }
 
 .ordinary-text {
@@ -197,29 +202,53 @@
 }
 
 .vacancy-company {
-/* width: 113px;
+    /* width: 113px;
 height: 16px; */
-font-family: 'Circe';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 114.9%;
-color: #0291EB;
-margin-left: 8px;
-margin-top: 29px;
-margin-bottom: 16px;
-}
-.vacancy-text {
-    padding-top: 40px;
-padding-left: 10px;
-padding-bottom: 96px;
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114.9%;
+    color: #0291EB;
+    margin-left: 8px;
+    margin-top: 29px;
+    margin-bottom: 16px;
 }
 
-.vacancy-button{
+.vacancy-text {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 96px;
+}
+
+.vacancy-button {
     height: 86px;
-width: 416px;
-border-radius: 73px;
-border: 3px solid #D00E46;
-background: #D00E46 ;
-/* color: #D00E46; */
+    width: 416px;
+    border-radius: 73px;
+    /* border: 3px solid #D00E46;
+background: #D00E46 ; */
+}
+
+/* .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #8064A2 !important;
+} */
+.btn-outline-light,
+.btn-outline-light:active,
+.btn-outline-light:visited
+{
+    background-color: #edf2f6 !important;
+    font-family: 'Circe' !important;
+    color: black !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 44px !important;
+    text-align: center !important;
+    border: 3px solid #D00E46 !important;
+}
+
+.btn-outline-light:hover{
+    background-color: #D00E46 !important;
+    font-family: 'Circe' !important;
+    color: rgb(254, 254, 254) !important;
 }
