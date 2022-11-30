@@ -1,3 +1,18 @@
+@import url(//db.onlinewebfonts.com/c/0915cee867624e0c356dd676beb2dcee?family=ALS+Sector);
+@import url(//db.onlinewebfonts.com/c/0373adad7b4c1a926865084f2f8fab7f?family=Circe);
+
+@font-face {
+    font-family: "ALS Sector";
+    src: url("//db.onlinewebfonts.com/t/0915cee867624e0c356dd676beb2dcee.eot");
+    src: url("//db.onlinewebfonts.com/t/0915cee867624e0c356dd676beb2dcee.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0915cee867624e0c356dd676beb2dcee.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0915cee867624e0c356dd676beb2dcee.woff") format("woff"), url("//db.onlinewebfonts.com/t/0915cee867624e0c356dd676beb2dcee.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0915cee867624e0c356dd676beb2dcee.svg#ALS Sector") format("svg");
+}
+
+@font-face {
+    font-family: "Circe";
+    src: url("//db.onlinewebfonts.com/t/0373adad7b4c1a926865084f2f8fab7f.eot");
+    src: url("//db.onlinewebfonts.com/t/0373adad7b4c1a926865084f2f8fab7f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0373adad7b4c1a926865084f2f8fab7f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0373adad7b4c1a926865084f2f8fab7f.woff") format("woff"), url("//db.onlinewebfonts.com/t/0373adad7b4c1a926865084f2f8fab7f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0373adad7b4c1a926865084f2f8fab7f.svg#Circe") format("svg");
+}
+
 .about__places {
     display: flex;
     flex-direction: row;
@@ -5,13 +20,12 @@
     justify-content: center;
     margin-top: 100px;
     align-content: space-around;
-    gap: 20px;
+    gap: 5px;
 }
 
 .about__places_text {
     display: flex;
     flex-direction: column;
-    margin-right: 5%;
     width: 378px;
     height: 178px;
 }
@@ -23,6 +37,16 @@
     font-size: 64px;
     line-height: 100%;
     color: #D00E46;
+}
+
+.text-sub {
+    font-family: "Circe";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6C6C6C
 }
 
 .about__map {
@@ -77,9 +101,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 2% 0 2% -1% !important;
 }
 
-.about__figures{
+.about__figures {
     display: flex;
     flex-direction: row;
     margin: 2% 0 2% 5%;
@@ -95,8 +120,27 @@
     justify-content: space-around;
     align-items: center;
 }
+
 .all-cards {
     width: 20%;
     height: 100px;
     border-radius: 5px;
+}
+
+.about__companies_logo-image {
+    height: 86px;
+    width: 178px;
+    border-radius: 73px;
+    background-color: #ffffff;
+
+}
+
+.ordinary-text {
+    font-family: Circe;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
