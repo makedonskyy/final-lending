@@ -158,8 +158,13 @@
 
 .about__companies_logo-image {
     height: 86px;
+    /* width: 128px; */
     border-radius: 73px;
     background-color: #ffffff;
+}
+
+.company-logos {
+    margin-left: -30% !important;
 }
 
 .ordinary-text {
@@ -284,29 +289,29 @@
     border-radius: 50%
 }
 
-.logos {
-    padding: 15%;
-    width: 175px;
-}
-
 /* логотипы компаний */
 
 .logo-elvis {
-    /* padding:15%;  */
-    width: 175px;
+    padding: 20%;
+    margin-left: 9%;
+    width: 80% !important;
 }
 
 .logo-nextouch {
     padding: 10%;
-    width: 160px;
+    margin-left: 6%;
+    width: 85% !important;
 }
 
 .logo-medplant {
-    margin-top: 17%
+    width: 85% !important;
+    margin: 17% 0 0 7% !important
 }
 
 .logo-mikron {
-    padding: 15%
+    width: 87% !important;
+    padding: 15%;
+    margin-left: 6%;
 }
 
 .logo-netprint {
@@ -323,18 +328,25 @@
 
 .logo-profotek {
     padding-top: 23px;
+    margin-left: 8%;
+    width: 80% !important;
 }
 
 .logo-ps {
-    padding-top: 7px;
+    margin-left: 23%;
+    width: 50% !important;
 }
 
 .logo-farm {
-    padding: 10%
+    width: 60% !important;
+    margin-left: 20%;
+    padding-top: 2%;
 }
 
 .logo-chirana {
-    padding: 15%
+    width: 70% !important;
+    margin: 5% 0 0 20%!important;
+
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 770px) {
@@ -482,26 +494,165 @@
 
 }
 
-@media only screen and (max-width: 770px) and (min-width: 350px) {
+@media only screen and (max-width: 770px) {
     .about__places {
         justify-content: space-evenly !important;
     }
 
     .about__map_media {
-        /* width: 30%; */
-        justify-content: center;
+        justify-content: space-between;
+        width: 366px;
+        height: 100px;
+    }
+
+    .about__places_text {
+        padding-top: 20% !important;
+        position: relative;
+    }
+
+    .about__map_place {
+        display: flex;
+        justify-content: left;
+
+    }
+
+    .card-img-left {
+        margin-left: 10%;
+        height: 70px;
+        margin-top: 6%;
     }
 
     .text-main {
-        font-size: 42px;
+        font-size: 36px;
     }
 
     .text-sub {
         font-size: 36px;
     }
 
-    .about__places_text {
-        padding-left: 30% !important;
-        margin-top: 20% !important;
+
+    .about__map {
+        height: 115px;
+        margin-left: 0;
+    }
+
+    .about__map_mini {
+        margin-left: 14% !important;
+        margin-top: -3% !important;
+    }
+
+    .mini-img {
+        height: 30px;
+        margin-top: -1%;
+    }
+
+    .card-text-map {
+        margin-left: -50%;
+        margin-top: -7% !important;
+    }
+
+    .about__companies {
+        margin-top: 30% !important;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 0 !i;
+    }
+
+    .about__companies_text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .about__companies_logo-image {
+        height: 50px;
+        /* width: 90px; */
+        border-radius: 73px;
+        background-color: #ffffff;
+    }
+
+    .company-logos {
+        display: flex;
+        align-items: center !important;
+        margin-left: 5% !important;
+    }
+
+    .logo-elvis {
+        width: 90px !important;
+        padding-top: 15%;
+        margin-left: 12%;
+    }
+
+    .logo-nextouch {
+        width: 90px !important;
+        margin-left: 10%;
+    }
+
+    .logo-medplant {
+        /* padding-top: 15% !important; */
+        margin-left: 12% !important;
+        width: 80px !important;
+    }
+
+    .logo-mikron {
+        padding: 15%;
+        width: 80px !important;
+        margin: 10%;
+    }
+
+    .logo-netprint {
+        width: 85% !important;
+        margin-left: 7%;
+        margin-top: -7% !important;
+    }
+
+    .logo-nauchnye {
+        width: 75% !important;
+        margin-left: 12% !important;
+        padding-top: 10%;
+    }
+
+    .logo-mesoformula {
+        width: 90% !important;
+        margin-top: -5% !important;
+    }
+
+    .logo-profotek {
+        width: 85% !important;
+        padding-top: 15% !important;
+        margin-left: 7%;
+    }
+
+    .logo-ps {
+        width: 70% !important;
+        margin-left: 17% !important;
+        padding-top: 0 !important
+    }
+
+    .logo-farm {
+        width: 85% !important;
+        margin-left: 8%;
+        margin-top: 8% !important;
+    }
+
+    .logo-chirana {
+        width: 85% !important;
+        margin-left: 7% !important;
+        padding-top: 7% !important;
+    }
+
+    .ordinary-text{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .btn-outline-light,
+    .btn-outline-light:active,
+    .btn-outline-light:visited {
+        font-size: 18px !important;
+        height: 80px !important;
+        width: 80px !important;
+        margin-top: 7% !important;
+        margin-left: 10%;
+        font-size: 12px !important;
     }
 }
