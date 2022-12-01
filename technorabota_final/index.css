@@ -16,9 +16,9 @@
 
 .about__places {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     height: 300px;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 100px;
     align-content: space-around;
     gap: 5px;
@@ -51,7 +51,7 @@
 .about__map {
     height: 161px;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-direction: column;
     border: 1px solid #D9D9D9;
     border-radius: 5px;
@@ -143,8 +143,9 @@
     border-radius: 5px;
     padding-top: 2%;
 }
+
 .about__figures_icon {
-    border-radius: 50%; 
+    border-radius: 50%;
     position: relative;
     top: 45%
 }
@@ -234,6 +235,12 @@
     border-radius: 73px;
 }
 
+.card-text-map {
+    padding-top: 40px;
+    height: 26px;
+    margin-left: -35%;
+}
+
 .btn-outline-light,
 .btn-outline-light:active,
 .btn-outline-light:visited {
@@ -252,4 +259,125 @@
     background-color: #D00E46 !important;
     font-family: 'Circe' !important;
     color: rgb(254, 254, 254) !important;
+}
+
+.card-img-left {
+    border-radius: 50% !important;
+}
+
+.about__map_mini {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15%
+}
+.mini-img {
+    border-radius: 50%
+}
+
+.logos {
+    padding:15%; 
+    width: 175px;
+}
+
+@media only screen and (max-width: 995px) and (min-width: 770px) {
+    .about__places {
+        justify-content: space-evenly !important;
+    }
+
+    .about__map_media {
+        justify-content: space-between;
+        width: 700px;
+    }
+
+    .about__places_text {
+        padding-left: 27% !important;
+        margin-top: 30% !important;
+    }
+
+    .about__map_place {
+        display: flex;
+        justify-content: left;
+        /* height: 30% !important; */
+
+    }
+
+    .text-main {
+        font-size: 54px;
+    }
+
+    .text-sub {
+        font-size: 42px;
+    }
+
+    .about__map {
+        height: 140px;
+        width: 70% ;
+        margin-left: 15% !important;
+    }
+
+    .about__map_mini {
+        margin-left: 23% !important;
+    }
+
+    .mini-img{
+        height: 40px;
+        margin-top: -1%;
+    }
+
+    .card-img-left {
+        margin-left: 10%;
+        height: 100px;
+        margin-top: 2%;
+    }
+
+    .card-text-map {
+        margin-left: -100%;
+        margin-top: -1.5% !important;
+    }
+
+    .about__companies {
+        margin-top: 37% !important;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 0 !important;
+        /* обратить внимание */
+    }
+
+    .about__companies_text{
+        width: 100%;
+        margin-left: 3.5%;
+        margin-bottom: 2%;
+    }
+
+    .about__companies_logo-image {
+        height: 86px;
+        width: 80px;
+        border-radius: 73px;
+        background-color: #ffffff;
+    }
+
+}
+
+@media only screen and (max-width: 770px) and (min-width: 350px) {
+    .about__places {
+        justify-content: space-evenly !important;
+    }
+
+    .about__map_media {
+        /* width: 30%; */
+        justify-content: center;
+    }
+
+    .text-main {
+        font-size: 42px;
+    }
+
+    .text-sub {
+        font-size: 36px;
+    }
+
+    .about__places_text {
+        padding-left: 30% !important;
+        margin-top: 20% !important;
+    }
 }
