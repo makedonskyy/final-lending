@@ -351,7 +351,11 @@
 .logo-chirana {
     width: 70% !important;
     margin: 5% 0 0 20% !important;
+}
 
+.change-img{
+    border: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 770px) {
@@ -669,7 +673,7 @@
         margin-bottom: 10% !important;
     }
 
-    .button-and-text{
+    .button-and-text {
         flex-direction: column;
     }
 
@@ -683,8 +687,9 @@
         margin-left: 15%;
         font-size: 13px !important;
     }
-.media-text{
-    font-size: 16px !important;
-}
+
+    .media-text {
+        font-size: 16px !important;
+    }
 
 }
