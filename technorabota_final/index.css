@@ -58,12 +58,16 @@
 }
 
 .about__map_mini-image {
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
 .about__map_place {
-    padding: 2%;
-    margin-left: 2%;
+    padding: 7%;
+    margin-left: 5%;
+}
+
+.main-img{
+height: 80% !important;
 }
 
 .text-in-card-main {
@@ -280,9 +284,6 @@
     color: rgb(254, 254, 254) !important;
 }
 
-.card-img-left {
-    border-radius: 50% !important;
-}
 
 .about__map_mini {
     display: flex;
@@ -291,7 +292,7 @@
 }
 
 .mini-img {
-    border-radius: 50%
+    height: 44px;
 }
 
 /* логотипы компаний */
@@ -353,10 +354,10 @@
     margin: 5% 0 0 20% !important;
 }
 
-.change-img{
+/* .change-img{
     border: #FFFFFF;
     background-color: #FFFFFF;
-}
+} */
 
 @media only screen and (max-width: 1200px) and (min-width: 770px) {
     .about__places {
@@ -399,14 +400,15 @@
     }
 
     .mini-img {
-        height: 40px;
+        height: 80%;
         margin-top: -1%;
+        margin-right: 5% !important;
     }
 
-    .card-img-left {
+    .main-img {
         margin-left: 10%;
         height: 100px;
-        margin-top: 2%;
+        margin-top: -5%;
     }
 
     .card-text-map {
@@ -525,10 +527,10 @@
 
     }
 
-    .card-img-left {
+    .main-img {
         margin-left: 10%;
-        height: 70px;
-        margin-top: 6%;
+        height: 80px;
+        /* margin-top: 6%; */
     }
 
     .text-main {
