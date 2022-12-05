@@ -10,7 +10,8 @@ let miniCard = document.querySelectorAll('.switch')
 
 // console.dir(mainCard.src);
 
-
+let title = document.querySelectorAll('.text-in-card-main')[1]
+console.log(title.innerHTML);
 // btn.forEach( el => {
 //     let src = el.children[0].src;
 //     console.log(src);
@@ -36,10 +37,10 @@ for (let i = 0; i < btn.length; i++) {
        for (const child of btn[i].children) {
             console.log(child.alt);
             const originalImg = mainCard.src
-            // const originalAlt = mainCard.alt
+            const originalAlt = mainCard.alt
             mainCard.src = child.src
-            // mainCard.alt = child.alt
-            // child.alt = originalAlt
+            title.innerHTML = child.alt
+            child.alt = originalAlt
             child.src = originalImg
         }
     })
